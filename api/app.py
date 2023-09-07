@@ -4,7 +4,12 @@ import openai
 app = Flask(__name__)
 
 # Set up OpenAI API credentials
-openai.api_key = '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'
+
+# clave dani: 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
+# clave nahue : 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
+
+
+openai.api_key = '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'
 
 # Mensaje inicial del chat
 initial_message = "Bienvenido a TigerIA, en qué te puedo ayudar?"

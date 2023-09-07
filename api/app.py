@@ -9,7 +9,7 @@ app = Flask(__name__)
 # clave nahue : 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
 
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Mensaje inicial del chat
 initial_message = "Bienvenido a TigerIA, en qué te puedo ayudar?"
@@ -61,4 +61,4 @@ def api():
     return jsonify({"message": bot_message})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

@@ -8,8 +8,9 @@ app = Flask(__name__)
 # clave dani: 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
 # clave nahue : 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
 
+# 2jP3asBGFrtlIkef5RcNT3BlbkFJ6rlNdOtizErS6txYzIXe
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Mensaje inicial del chat
 initial_message = "Bienvenido a TigerIA, en qué te puedo ayudar?"

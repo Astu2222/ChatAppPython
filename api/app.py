@@ -33,13 +33,13 @@ def api():
     context = "Deporte y Salud:"
 
     # Verifica si la URL actual corresponde a tu sitio web
-    if "localhost:8080/productos" in current_url:
+    if "http://3.140.253.188/productos" in current_url:
         context = "Productos de artículos deportivos:"
 
-    elif "localhost:8080/categorias" in current_url:
+    elif "http://3.140.253.188/categorias" in current_url:
         context = "Categorías de productos deportivos:"
 
-    elif "localhost:8080/caracteristicas" in current_url:
+    elif "http://3.140.253.188/caracteristicas" in current_url:
         context = "Características de productos deportivos:"
 
     # Agrega el mensaje inicial y el contexto al lado del chat
